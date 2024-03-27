@@ -13,7 +13,7 @@ import pages.BasePage;
     glue = "steps",
     plugin = {"pretty","html:target/cucumber-reports"},
     //tags="@Plans or @Curses")
-    tags="@Test02")
+    tags="@Test01 or @Test02 or @Test03")
 
 public class TestRunner {
     @AfterClass

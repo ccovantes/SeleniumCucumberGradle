@@ -37,7 +37,7 @@ public class LiverpoolStepDefinition {
     public void validateTitle(String value){
         String cad = landingPage.validateTitlePrincipalPage(value);
         String description = "Control gamepad Sony";
-        String cantidad = "$7,195";
+        String cantidad = "$7,099";
         if(value.equals("title")){
             Assert.assertTrue(cad.contains(description));
         }else{
